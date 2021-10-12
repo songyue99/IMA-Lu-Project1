@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+}
+
+h1 {
+    position: center;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5%;
+}
+
+h2 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.top_des {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.51);
+}
+#sec1-2 {
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#years {
+    margin: 1%;
+    width: 32%;
+    height: 36px;
+    margin-bottom: 10px;
+    background: #1437B1;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+}
+
+#top {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(84.56deg, #1437B1 34.72%, rgba(196, 37, 210, 0.42) 97.41%);
+}
+
+#sec1 {
+    margin: 5%;
+}
+
+.description {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 2%;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.small-grey-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 2%;
+}
+
+#thanky {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 3%;
+
+    color: #000000;
+}
+
+.sum {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.bylu {
+    padding-top: 2%;
+}
+
+
+#desTitle {
+    margin-left:10%;
+    margin-top: 20px;
+}
+
+canvas{
+    display: block;
+    margin: 10px 20px;
+}
+
+@media (max-width: 720px) {
+    #sec2 {
+        background: rgba(129, 96, 206, 0.15);
+        display: flex;
+        flex-direction: column;
+    }
+}

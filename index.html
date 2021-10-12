@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Population in China </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/week1-logo.png" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section id="top">
+        <h1>POPULATION IN CHINA <br> & FAMILY PLANNING</h1>
+        <p class="top_des bylu">by Lu @NYU IMA Low Res</h3>
+        <p class="top_des">
+            made with Javascript + p5 + vscode + Chinese population JSON data
+        </p>
+    </section>
+    <section id="sec1">
+        <section id="sec1-1">
+            <h2>
+                2021: Three-child Policy
+            </h2>
+            <p class="description">
+                The policy, whereby allows a couple to have three children, came out early this year. Some people
+                support it due to concerns over population ageing and slow economic growth. Other people mock it because
+                of the high pressure of raising even one child in the current society. <strong>How does birth policies
+                    actually affect population after their release? Let's explore now!</strong>
+            </p>
+        </section>
+        <section id="sec1-2">
+            <h3>
+                Choose a year when a major birth policy was released.
+            </h3>
+            <select id="years">
+                <option value="1980">1980: Regional One-child Policy</option>
+                <option value="2002">2002: National One-child Policy</option>
+                <option value="2011">2011: Conditional Two-child Policy</option>
+                <option value="2015">2015: National Two-child Policy</option>
+            </select>
+            <p>
+                Purple: 5 yrs before the policy
+            </p>
+            <p>
+                White: the year of the Policy
+            </p>
+            <p>
+                Blue: 5 yrs after the policy
+            </p>
+            <div id="canvas-container"></div>
+        </section>
+        <section id="sec1-3">
+            <p class="description sum"><strong>Summary:</strong>
+                As we can see in the graph, population in China has been growing slower since the release of the first
+                major birth policy. However, population growth barely varies 5 years before and after each major
+                release. Are the policies actually driving the polulation growth? What would be the effect of the new
+                three-child policy? How's our society changing in correspondence to family planning? <br>
+                <strong>I might not have a great answer here but hope this website gives some insights to keep thingking
+                    and exploring the topic!</strong>
+            </p>
+        </section>
+    </section>
+
+    <section id="bottom">
+        <p class="small-grey-text">
+            <strong>References</strong> <br>
+            Family planning in China:
+            https://baike.baidu.com/item/%E8%AE%A1%E5%88%92%E7%94%9F%E8%82%B2/608369<br>Chinese population data since
+            the 1960s: http://api.worldbank.org/v2/countries/CHN/indicators/SP.POP.TOTL?per_page=5000&format=json
+        </p>
+        <p id="thanky">
+            Thank you!
+        </p>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
