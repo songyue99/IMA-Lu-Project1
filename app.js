@@ -3,10 +3,8 @@ let drawYearIndex;
 //load the page's html first and then fetch the data
 window.addEventListener("load", function () {
     console.log("page is loaded");
-    let dataURL = "http://api.worldbank.org/v2/countries/CHN/indicators/SP.POP.TOTL?per_page=5000&format=json";
-
     //get access to online API about Chinese population since 1960s
-    fetch(dataURL)
+    fetch("pop-china.json")
         .then(response => response.json())
         .then(data => {
             console.log(data);
