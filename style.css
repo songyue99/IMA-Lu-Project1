@@ -92,6 +92,12 @@ h2 {
     color: rgba(0, 0, 0, 0.5);
 }
 
+a {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    color: rgba(196, 37, 210, 0.42) 97.41%;
+}
+
 h3 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
