@@ -1,5 +1,6 @@
 let popData;
 let drawYearIndex;
+
 //load the page's html first and then fetch the data
 window.addEventListener("load", function () {
     console.log("page is loaded");
@@ -30,11 +31,11 @@ function draw() {
         drawYearIndex= 2020 - $('select#years option:selected').val();
         noStroke();
         fill(20,55,177);
-        ellipse(width/2,height/2,popData[1][drawYearIndex-5].value/5000000,popData[1][drawYearIndex-5].value/5000000);
+        ellipse(width/2,height/2,sqrt(popData[1][drawYearIndex-5].value/20000),sqrt(popData[1][drawYearIndex-5].value/20000));
         fill(255,255,255);
-        ellipse(width/2,height/2,popData[1][drawYearIndex].value/5000000,popData[1][drawYearIndex].value/5000000);
+        ellipse(width/2,height/2,sqrt(popData[1][drawYearIndex].value/20000),sqrt(popData[1][drawYearIndex].value/20000));
         fill(176,37,210,42);
-        ellipse(width/2,height/2,popData[1][drawYearIndex+5].value/5000000,popData[1][drawYearIndex+5].value/5000000);
+        ellipse(width/2,height/2,sqrt(popData[1][drawYearIndex+5].value/20000),sqrt(popData[1][drawYearIndex+5].value/20000));
     } else {
         console.log("waiting for information");
     }

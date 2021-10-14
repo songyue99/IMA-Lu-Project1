@@ -88,7 +88,6 @@ h2 {
     text-align: center;
     padding-top: 1.5%;
     padding-bottom: 1%;
-
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -96,6 +95,11 @@ a {
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     color: rgba(196, 37, 210, 0.42) 97.41%;
+}
+
+#pop-notes {
+    color: rgba(196, 37, 210, 0.42) 97.41%;
+    text-align: center;
 }
 
 h3 {
